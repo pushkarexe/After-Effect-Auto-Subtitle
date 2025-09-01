@@ -41,13 +41,13 @@ It extracts audio from your composition, transcribes it with Whisper, and places
 
 
 
-Usage
+**Usage**
   1. Open a composition with an audio track.
   2. Open Auto Subtitles panel.
   3. Click Generate Subtitles.
   4. Wait. (Task completion time may vary between computers)
 
-Troubleshooting
+**Troubleshooting**
   1. whisper not found → Python Scripts folder not added to PATH.
   2. ffmpeg not found → FFmpeg not installed or not in PATH.
   3. Slow transcription → Use GPU version of PyTorch + Whisper.
