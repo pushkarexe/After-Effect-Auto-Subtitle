@@ -14,7 +14,7 @@ It extracts audio from your composition, transcribes it with Whisper, and places
    1. Windows:
      https://ffmpeg.org/download.html
    1. Extract the .zip to a folder (e.g., C:\ffmpeg).
-      2. Add FFmpeg to PATH:
+   Add FFmpeg to PATH:
        Press Win + S, type Environment Variables, click on "Edit the system environmental variables".
        Environment Variables > Under System variables, find Path, click Edit. Add: "C:\ffmpeg\bin"
    2. macOS:
